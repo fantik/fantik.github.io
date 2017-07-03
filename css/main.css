@@ -7,12 +7,11 @@ body {
 }
 .img {
     width: 185px;
-    margin-right: 22em;
     margin-top: 15px;
 }
 .about {
     float: left;
-    margin-left: 25em;
+    margin-left: 22%;
 }
 h3 {
     font-family: 'Ubuntu', sans-serif;
@@ -38,16 +37,17 @@ pre,p {
        
 a {
     font-family: 'Ubuntu', sans-serif;
-    color: #000080; /* Цвет обычной ссылки */
-    padding: 2px; /* Поля вокруг текста */
+    color: #000080; 
+    padding: 2px; 
 }
        
 a:visited {
-    color: #800080; /* Цвет посещенной ссылки */
+    color: #800080; 
 } 
       
 a:hover {
-    text-decoration: none; /* Убираем подчеркивание */
-     color: White; /* Цвет ссылки при наведении на нее курсора мыши */  
-     background: Grey; /* Цвет фона */
+    text-decoration: none;
+     color: White;  
+     background: Grey; 
    }
+
