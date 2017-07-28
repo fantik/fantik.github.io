@@ -1,0 +1,218 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    .product, .price {
+        margin-left: 20px;
+    }
+    .bottom_mnu_list li {
+        margin: 18px 63px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+   
+    .searchh {
+        width: 150px;
+        margin-right: 0px;
+    }
+    .top_mnu li {
+        margin: 12px 12px;
+        line-height: 21px;
+    }
+    .rp_list li {
+        width: 32%;
+    }
+    .rp_list {
+       margin-left: 6%;
+    }
+    .left_part {
+       width: 205px;
+    }
+    .right_part {
+        margin-left: 10%;
+    }
+    
+    .rp_list li:nth-child(3) .rp_list_content,
+    .rp_list li:nth-child(6) .rp_list_content,
+    .rp_list li:nth-child(9) .rp_list_content{
+        border-right: none;
+    }
+    .rp_list li:nth-child(4) .rp_list_content_none,
+    .rp_list li:nth-child(8) .rp_list_content_none{
+       border-right: 1px dotted #edebeb;
+    }
+    .line_t {
+        width: 110px;
+        margin-right: 25px;
+    }
+    .bottom_mnu_list li {
+        margin: 18px 41px;
+    }
+    
+    .product_details_s {
+         margin-left: 0px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    .top_mnu_list,
+    .bottom_mnu_list {
+        display: none;
+        position: absolute;
+        background: linear-gradient(to bottom, #f2f2f2, #fefefe);
+        width: 35.8%;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        z-index: 3333;
+    }
+    .bottom_mnu_list a {
+        color: black;
+    }
+        
+    .top_mnu_list li,
+    .bottom_mnu_list li {
+        display: block;
+        border-bottom: 1px solid #F2F2FF;
+    }
+    .mnu_text {
+        display: none;
+    }
+    
+    .content {
+     display: inline-block;
+    }
+    .sider {
+        float: left;
+        margin-left: 10px;
+    }
+    .section.vertical {
+        display: grid;
+    }
+    .right_part {
+        margin-left: 14%;
+    }
+    .rp_list li {
+        width: 45%;
+    }
+    .rp_left {
+        margin-left: 10%;
+    }
+    .left_part {
+        width: 135%;
+    }
+    input.search_lp {
+        width: 60%;
+    }
+    .menu_lp a {
+        width: 114%;
+    }
+    .menu_list_lp {
+        width: 57%;
+    }
+    .lp_arrow {
+        margin: -4px 0 0 40%;
+    }
+    .rp_list li:nth-child(2n) .rp_list_content,
+    .rp_list li:nth-child(2n) .rp_list_content_none{
+        border-right: none;
+    }
+    .rp_list li:nth-child(2n+1) .rp_list_content{
+        border-right: 1px dotted #edebeb;
+    }
+    .line_t {
+        width: 138px;
+    }
+    .product_price {
+        display: none;
+    }
+    .product_details_s span {
+       margin: 0 6px;
+    }
+    .gender {
+        margin-left: 5em;
+    }
+    .pole {
+        margin-left: 3.9em;
+        width: 57%;
+    }
+    .pole_db {
+        margin-left: 3.2em;
+    }
+    .pole_email {
+        margin-left: 2em;
+    }
+    .pole_company {
+        margin-left: 1.5em;
+    }    
+    .pole_post {
+        margin-left: 7em;
+    }
+    .pole_country {
+        margin-left: 5em;
+    }
+    .pole_telephone {
+        margin-left: 0em;
+    }
+    .pole_fax {
+        margin-left: 3em;
+    }
+    .pole_password {
+        margin-left: 4.3em;
+    }
+    .pole_confirm {
+        margin-left: 3.1em;
+        width: 57%;
+    }
+    .personal_details textarea {
+        margin-left: 121px;
+        width: 57%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.box {
+        background-size: contain;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .top_mnu_list{
+        display: inline-block!important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
