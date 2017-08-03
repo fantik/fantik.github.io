@@ -1,6 +1,8 @@
 $(document).ready(function() {
     
+
 //------Baner_slider_icon------
+    
     
 $('ul.icon_preview').delegate('li:not(.current)', 'click', function() {
         $(this).addClass('current').siblings().removeClass('current')
