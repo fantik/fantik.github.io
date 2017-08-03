@@ -809,6 +809,7 @@ ul.pages_list li:hover {
     color: white;
     float: left;
     margin-left: 18px;
+    margin-top: 20px;
 }
 
 .footer_text .articles_info::before {
