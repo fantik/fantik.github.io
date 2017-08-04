@@ -2,8 +2,8 @@
 	color: #666;
 	opacity: 1;
 }
-*:-moz-placeholder {
-	color: #666;
+input[type="search"]::-moz-placeholder {
+	color: #fff;
 	opacity: 1;
 }
 *::-moz-placeholder {
