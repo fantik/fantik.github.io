@@ -222,7 +222,7 @@ img.logo {
 .icon_preview {
     position: absolute;
     bottom: 12%;
-    right: 0px;
+    right: 15px;
     background-color: #1f1e1e;
   }
 
@@ -284,8 +284,8 @@ span.sp1 {
 
 .slide_item img {
     display: block;
-    margin: 10px;
-    width: -webkit-fill-available;
+    padding: 10px;
+    width: 100%;
 }
 
 .slide_item p {
@@ -297,7 +297,7 @@ span.sp1 {
 }
 
 .slide_item button {
-    width: 76px;
+    width: 80px;
     height: 28px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
     color: white;
@@ -330,11 +330,11 @@ span.sp1 {
 }
 
 .next_button {
-    right: -18px;
+    right: 0;
 }
 
 .prev_button {
-    left: -18px;
+    left: 0;
 }
 
 .post button {
@@ -419,8 +419,8 @@ padding: 0;
 
 .articles_photo img {
     display: block;
-    margin: 15px;
-    width: -webkit-fill-available;
+    padding: 15px;
+    width: 100%;
 }
 
 .articles_text{
