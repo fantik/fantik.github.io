@@ -1,6 +1,27 @@
 $(document).ready(function() {
     
+    //    GAMBURGER_MENU
+    
+     $(".top_mnu_btn").click(function(){
+        $(".top_menu_list").slideToggle();
+    });
+    
+     $(".topl_btn").click(function(){
+        $("ul.top_line_nav").slideToggle();
+    });
+     //    GAMBURGER_MENU FOOTER
+    
+     $("button.footer_btn.fb1").click(function(){
+        $("ul.footer_list.fl1").slideToggle();
+    });
 
+    $("button.footer_btn.fb2").click(function(){
+        $("ul.footer_list.fl2").slideToggle();
+    });
+    
+    $("button.footer_btn.fb3").click(function(){
+        $("ul.footer_list.fl3").slideToggle();
+    });
 //------Baner_slider_icon------
     
     

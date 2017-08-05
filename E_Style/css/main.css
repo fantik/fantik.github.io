@@ -149,6 +149,23 @@ img.logo {
     border-top-right-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
+button.topl_btn {
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    position: absolute;
+    bottom: 68px;
+    left: 5px; 
+    display: none;
+}
+
+button.top_mnu_btn.hidden-sm.hidden-md.hidden-lg {
+    color: white;
+    padding: 14px 19px 18px 22px;
+    /* padding: 16px; */
+    background-color: transparent;
+    border: none;
+}
 
 .drop_menu {
     display: none;
@@ -171,9 +188,9 @@ img.logo {
     margin: -11px 0 0 0;
 }
 .social_links {
-    float: right;
-    margin-top: -47px;
-    margin-right: 15px;
+    position: absolute;
+    right: 22px;
+    bottom: 20px;
 }
 
 .social_links a {
@@ -181,7 +198,7 @@ img.logo {
 }
 
 .baner_slider {
-    background: url(../img/bg-baner.png);
+    background: url(../img/bg-baner1.png);
     background-size: contain;
 }
 
@@ -774,7 +791,7 @@ ul.pages_list li:hover {
 /*----------Footer_bottomline----------------*/
 .bottomline {
     background: url(../img/footer_bg.png) no-repeat;
-    background-position-y: -1%;
+    background-position-y: 1%;
 }
 
 .footer_text h2, .footer_quicklinks h2,
@@ -840,6 +857,11 @@ ul.pages_list li:hover {
 
 .footer_list .current a {
     color: #098ec5;
+}
+
+.footer_btn {
+    background-color: transparent;
+    border: none;
 }
 /*
 font-family: 'DroidSerif-Italic';
