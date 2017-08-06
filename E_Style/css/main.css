@@ -862,6 +862,7 @@ ul.pages_list li:hover {
 .footer_btn {
     background-color: transparent;
     border: none;
+    display: none;
 }
 /*
 font-family: 'DroidSerif-Italic';

@@ -219,7 +219,8 @@
     ul.footer_list.fl1 li,
     ul.footer_list.fl2 li,
     ul.footer_list.fl3 li,
-    ul.top_line_nav li {
+    ul.top_line_nav li,
+    .footer_btn {
         display: block;
     }
     .bottomline {
@@ -246,6 +247,7 @@
     .search {
         width: 200px;
     }
+    
 }
 
 /* Custom, iPhone Retina */
@@ -262,8 +264,12 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
+@media only screen and (min-width : 510px) {
+    ul.footer_list.fl1,
+    ul.footer_list.fl2,
+    ul.footer_list.fl2 {
+        display: block!important;
+    }
    
 }
 
