@@ -1,0 +1,180 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body, html {
+    margin: 0;
+    background: url(../img/menuimg1.png) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+ }
+.menu_logo img {
+    width: 100px;
+    margin-left: 47%;
+    margin-top: 5%;
+}
+.menu_logo h3 {
+    font-size: 36px;
+    color: #fff;
+    margin-left: 4%;
+}
+    
+td, th {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.price {
+    padding-left: 26em;
+}
+.price2 {
+   padding-left: 19em;
+}
+.price3 {
+   padding-left: 5em;
+}
+.price4 {
+   padding-left: 20em;
+}
+.price5 {
+   padding-left: 15.5em;
+}
+.price6 {
+   padding-left: 15.2em;
+}
+.price7 {
+   padding-left: 25.7em;
+}
+.price8 {
+   padding-left: 21.5em;
+}
+.price9 {
+   padding-left: 21em;
+}
+.price10 {
+   padding-left: 18.5em;
+}
+.price11 {
+   padding-left: 17.5em;
+}
+.price12 {
+   padding-left: 13em;
+}
+.price13 {
+   padding-left: 15em;
+}
+.price14 {
+   padding-left: 10.5em;
+}
+
+
+
+table {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
+ .namee {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+
+td p {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    opacity: 0.6;  
+    padding: 0;
+    color:#FFF;
+    cursor: pointer;
+    display: inline-block; 
+    font-size: 18px;
+}
+.hide + label:hover {
+    opacity: 1;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: #FFF;
+    border-bottom: 0;
+    opacity: 1;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: transparent;
+    color: #fff;
+    padding-top: 10px; 
+}
+
+/* demo контейнер */
+.menu {
+    margin: 5% 4%;
+}
+.bmenu {
+    margin: 5% 4%;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+@media (max-width:720px) and (min-width:500px)  {
+    .hide + label {
+     font-size: 16px;
+    }
+    table {
+        font-size: 14px;
+    }  
+    td, th {
+       width: 300px;
+    }
+    .price, .price2, .price3,
+    .price4, .price5, .price6,
+     .price7, .price8, .price9,
+     .price10, .price11, .price12,
+    .price13, .price14 {
+        padding-left: 5em;
+    }
+}
+@media (max-width:499px) and (min-width:320px)  {
+    .hide + label {
+     font-size: 14px;
+    }
+    table {
+        font-size: 12px;
+    }  
+    td, th {
+       width: 250px;
+    }
+    .price, .price2,.price4,
+    .price6, .price7, .price8,
+    .price9, .price11, .price12,
+    .price13, .price14 {
+        padding-left: 5em;
+    }
+    .container-fluid {
+        margin: 0;
+        padding: 0;
+    }
+    td p {
+    font-size: 10px;
+    line-height: 12px;
+    }
+    .price10, .price5,  .price3 {
+         padding-left: 4em;
+    }
+}

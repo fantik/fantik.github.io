@@ -1,0 +1,139 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    
+    i.fa.fa-phone, i.fa.fa-map-marker, i.fa.fa-clock-o {
+        left: 15%;
+    }
+    i.fa.fa-map-marker {
+        left: 7%;
+    }    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .next_button {
+        right: 2%;
+    }
+    .parallax h2 {
+        margin-top: 25%;
+        margin-left: 7%;
+    }
+    
+    i.fa.fa-phone, i.fa.fa-map-marker, i.fa.fa-clock-o {
+        left: 7%;
+    }
+    i.fa.fa-map-marker {
+        left: 0%;
+    } 
+    .topline_list li {
+       width: 31.33333%;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .logo {
+        margin: 50px 0;
+    }
+    .top_line h1 {
+        font-family: 'PT Mono', monospace;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 60px;
+    }
+    .slider_text {
+        float: none;
+        margin-left: 40%;
+        margin-right: 7%;
+        margin-top: 1%;
+        color: black;
+    }
+    
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 70%;
+        margin-left: 18%;
+        border-radius: 20px;
+    }
+    .menu_content ul {
+        left: 30%;
+        top: 42%;
+    }
+    .footer_inf p {
+        margin-left: 0%;
+        margin-top: 2%;
+        text-align: left;
+    }
+    i.fa.fa-phone, i.fa.fa-map-marker, i.fa.fa-clock-o {
+       position: initial;
+        left: 0;
+}
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .reservation {
+        background: url(../img/footer.png) center top no-repeat;
+        background-size: cover;
+    }
+    .reservation_content span {
+        font-size: 17px;
+    }
+    .reservation_content {
+        font-size: 19px;
+    }
+    .footer_inf {
+        border-bottom: 1px solid grey;
+    }
+    .menu_content {
+    background: url(../img/banketka.png) no-repeat center top;
+    padding: 100px 0;
+}
+    .menu_content ul {
+    left: 21%;
+    top: 39%
+    }
+    .topline_list li {
+    width: 29%;
+    }
+    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

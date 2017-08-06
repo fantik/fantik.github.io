@@ -82,7 +82,9 @@ $('ul.footer_list').delegate('li:not(.current)', 'click', function() {
 	var owl = $(".carousel");
 	owl.owlCarousel({
 		items : 3
-	});
+      	});
+
+
 	
 	$(".next_button").click(function(){
 		owl.trigger("owl.next");
