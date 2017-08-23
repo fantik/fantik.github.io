@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "LeagueGothic-Italic";
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/LeagueGothic-Italic/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/LeagueGothic-Italic/leaguegothic-italic-webfont.woff") format("woff"),
+  url("../fonts/LeagueGothic-Italic/leaguegothic-italic-webfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LeagueGothic-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/LeagueGothic-Regular/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/LeagueGothic-Regular/leaguegothic-regular-webfont.woff") format("woff"),
+  url("../fonts/LeagueGothic-Regular/leaguegothic-regular-webfont.ttf") format("truetype");
+}
