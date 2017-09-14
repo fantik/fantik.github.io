@@ -22,6 +22,6 @@
   font-family: "Bringin";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Bringin.ttf") format("truetype"); }
+  src: url("../fonts/Bringin/Bringin.eot?#iefix") format("embedded-opentype"), url("../fonts/Bringin/Bringin.woff") format("woff"), url("../fonts/Bringin/Bringin.ttf") format("truetype"); }
 
 /*# sourceMappingURL=fonts.css.map */
