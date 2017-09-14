@@ -188,8 +188,8 @@ section {
       vertical-align: middle; }
   .top_wrapper .top_text {
     display: inline-block;
-    margin-left: 11%;
-    margin-top: 2%;
+    margin-left: 12%;
+    margin-top: 135px;
     border-top: none;
     width: 90%;
     padding: 30px; }
@@ -302,31 +302,31 @@ section {
     padding: 0 25px; }
 
 .article_first {
-  width: 66.66667%;
-  height: 50%;
+  width: 760px;
+  height: 380px;
   top: 0;
   left: 0;
-  padding-left: 33.3333%; }
+  padding-left: 380px; }
   .article_first img {
     position: absolute;
     left: 0; }
 
 .article_second {
-  width: 66.66667%;
-  height: 50%;
+  width: 760px;
+  height: 380px;
   bottom: 0;
   left: 0;
-  padding-right: 33.3333%; }
+  padding-right: 380px; }
   .article_second img {
     position: absolute;
     right: 0; }
 
 .article_third {
-  width: 33.33333%;
-  height: 100%;
+  width: 380px;
+  height: 760px;
   top: 0;
   right: 0;
-  padding-top: 33.3333%; }
+  padding-top: 380px; }
   .article_third img {
     position: absolute;
     left: 0;
