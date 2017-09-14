@@ -1,0 +1,645 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Raleway", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+ul,
+li
+	list-style: none
+a
+	cursor: pointer
+
+.hidden
+	display: none
+section, 
+.main_head
+	position: relative
+
+section
+	margin: 50px 0 0 0
+	h2
+		background: url("../img/waves.png") no-repeat center top
+		text-align: center
+		font-size: 30px
+		font-family: 'Open Sans', sans-serif
+		color: #2c2e37
+		font-weight: 700
+		padding: 30px 0
+		text-transform: uppercase
+
+.main_head
+	min-height: 620px
+	padding-top: 30px
+	background: url("../img/bg_header.png") no-repeat top center
+
+.loader 
+	background: none repeat scroll 0 0 #fff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner 
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+.logo_container
+	float: left
+
+.logo_container	img
+	margin-top: 7px
+
+.toggle_mnu
+	width: 40px
+	height: 40px
+	float: right
+	position: fixed
+	right: 2%
+	z-index: 100
+	border: none
+	background-color: grey
+	span
+		display: block
+
+$w: 30px
+$h: 3px
+
+.sandwich 
+	width: $w
+	height: $h
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	margin: auto
+	z-index: 200
+
+.sw-topper
+	position: relative
+	top: -10px
+	width: $w 
+	height: $h
+	background: #56c7ff
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+				
+	// transition-delay: 0.2s, 0s
+
+.sw-bottom
+	position: relative
+	width: $w
+	height: $h
+	top: -4px
+	background: #56c7ff
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+	transition-delay: 0.2s, 0s
+
+.sw-footer
+	position: relative
+	width: $w
+	height: $h
+	top: 2px
+	background: #56c7ff
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: all 0.5s
+	transition-delay: 0.1s
+.sandwich.active 
+	.sw-topper
+		top: 1px
+		transform: rotate(140deg)
+	.sw-bottom
+		top: -3px
+		transform: rotate(-140deg)
+	.sw-footer
+		opacity: 0
+		top: 0
+		transform: rotate(180deg)
+
+.top_mnu
+	position: fixed
+	width: 100%
+	height: 100px
+	z-index: 50
+	background-color: rgba(255,255,255,.85)
+	right: 0
+	top: 0
+	display: none
+	ul,
+	li
+		list-style-type: none
+		padding: 0
+		margin: 0
+		text-transform: uppercase
+		display: inline-block
+	ul
+		margin-left: 20%
+		margin-top: 2.5%
+		a
+			font-size: 12px
+			display: block
+			margin-left: 25px
+			padding: 5px 0	
+			color: #9daeb6
+			font-weight: 700
+			font-family: 'Open Sans', sans-serif
+		a:hover
+			border-bottom: 2px solid #36aeea
+
+.top_wrapper
+	display: table
+	height: 100%
+	width: 100%
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 20
+	.top_descr
+		display: table-row
+		.top_centered
+			display: table-cell
+			text-align: left
+			vertical-align: middle
+	.top_text
+		display: inline-block
+		margin-left: 11%
+		margin-top: 2%
+		border-top: none
+		width: 90%	
+		padding: 30px
+		h1
+			font-family: 'Open Sans', sans-serif
+			font-size: 3.85em
+			font-weight: 700
+			text-transform: uppercase
+			color: #fff
+			line-height: 32px
+			letter-spacing: 2px
+			margin: 0
+			span
+				font-family: "Bringin"
+				font-size: 1.15em
+				font-weight: 400
+				color: #56c7ff
+				text-transform: initial
+		p
+			font-size: 1.2em
+			color: #fff
+			font-weight: 400
+			opacity: 0.75
+			margin-bottom: 40px
+			margin-top: 30px
+		a
+			background-color: #36aeea
+			border-radius: 4px
+			box-shadow: 0 0 35px rgba(3, 3, 3, 0.06)
+			padding: 15px 30px
+			color: #fff
+			font-size: 12px
+			font-weight: 700
+			text-transform: uppercase
+			font-family: "Raleway", sans-serif
+			
+.overfl
+	overflow: hidden
+
+#about_us
+	background: url("../img/aboutUs/aboutUs_bg.png") no-repeat
+	background-color: #f6f4f4
+	background-position: right 20%
+
+.s_aboutUs
+	min-height: 660px
+
+.aboutUs_text
+	font-family: 'Open Sans', sans-serif
+	width: 35%
+	position: absolute
+	bottom: 43%
+	left: 2%
+	h3
+		background: url("../img/waves.png") no-repeat
+		font-size: 20px
+		color: #2c2e37
+		font-weight: 700
+		padding-top: 30px
+		text-transform: uppercase
+	p
+		font-size: 14px
+		font-weight: 400
+		color: #949494
+	a
+		background-color: #36aeea
+		border-radius: 4px
+		text-transform: uppercase
+		font-weight: 700
+		font-size: 12px
+		color: #fff
+		padding: 10px 20px
+
+.aboutUs_small,
+.aboutUs_big
+	position: absolute
+
+.aboutUs_big
+	right: -18%
+	top: -5%
+
+.aboutUs_small
+	z-index: 1
+	left: 41%
+	bottom: 8%
+
+.articles
+	height: 760px
+	width: 1140px
+	position: relative
+	padding: 0
+	margin: 0
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+
+
+
+.article
+	position: absolute
+	text-align: center
+	font-family: 'Open Sans', sans-serif
+	h4
+		color: #212121
+		font-size: 17px
+		font-weight: 700
+		text-transform: uppercase
+		margin: 0 0 20px
+		padding: 0 50px
+	p
+		color: #777
+		font-size: 15px
+		font-weight: 400
+		padding: 0 25px
+
+.article_first
+	width: 66.666666%
+	height: 50%
+	top: 0
+	left: 0
+	padding-left: 33.3333%
+	img
+		position: absolute
+		left: 0
+
+			
+.article_second
+	width: 66.666666%
+	height: 50%
+	bottom: 0
+	left: 0
+	padding-right: 33.3333%
+	img
+		position: absolute
+		right: 0
+
+	
+.article_third
+	width: 33.333333%
+	height: 100%
+	top: 0
+	right: 0
+	padding-top: 33.3333%
+	img
+		position: absolute
+		left: 0
+		top: 0
+
+.article_top
+	color: #16b5ef
+	font-size: 12px
+	font-weight: 700
+	text-transform: uppercase
+	padding: 40px
+
+.article_bottom
+	color: #212121
+	font-family: "Times New Roman"
+	font-size: 15px
+	font-weight: 400
+	font-style: italic
+	margin-top: 40px
+.ab2 
+	margin-top: 82px
+
+.label1:after,
+.label2:after,
+.label3:after
+	position: absolute
+	content: ''
+	height: 18px
+	width: 18px
+	background-color: #fff
+	transform: rotate(45deg)
+	left: 48.85%
+	top: 15%
+
+.label3:after
+	left: 18%
+	top: 49%
+
+.label1:before,
+.label2:before,
+.label3:before
+	position: absolute
+	content: ''
+	height: 81px
+	width: 81px
+
+.label1:before
+	background: url("../img/articles/heart.png") no-repeat
+	left: 19%
+	top: 35%
+
+.label2:before
+	background: url("../img/articles/least.png") no-repeat
+	right: 19%
+	top: 40%
+
+.label3:before
+	background: url("../img/articles/watter.png") no-repeat
+	top: 19%
+
+.dyou_wannago
+	background: url("../img/dyouwannago_bg.png") no-repeat
+	font-family: 'Open Sans', sans-serif
+	height: 650px
+	h3
+		background: url("../img/waves.png") no-repeat left top
+		padding-top: 30px
+		text-transform: uppercase
+		color: #2c2e37
+		font-size: 20px
+		font-weight: 700
+	p
+		color: #949494
+		font-size: 14px
+		font-weight: 400
+
+.dyou_wanna_form
+	display: inline-block
+	border: 3px solid #fff
+	border-radius: 4px
+	background-color: #FFF
+	padding-left: 20px
+	font-size: 16px
+	color: #848484
+	input
+		border: 0
+		padding: 18px 5px
+	.line
+		border-right: 2px solid #ebebeb
+		height: 35px
+		display: inline-block
+		vertical-align: middle
+		margin-bottom: 10px
+		margin-right: 20px
+	button
+		border: 0
+		border-radius: 4px
+		background-color: #36aeea
+		padding: 18px 74px
+		text-transform: uppercase
+		font-size: 16px
+		color: #fff
+		font-weight: 700
+	input::placeholder
+		visibility: hidden
+
+.dyou_bottom_text
+	background: url("../img/dyou_lock.png") no-repeat left top
+	color: #36aeea
+	font-size: 14px
+	font-weight: 400
+	padding-left: 25px
+	margin-top: 15px
+
+.dyou_wannago_text
+	padding-top: 10%
+
+.work_list
+	background: url("../img/how_we_work.png") no-repeat center top
+	margin: 0
+	padding: 0
+	padding-top: 26%
+	display: flex
+	background-size: 91%
+	font-family: 'Roboto', sans-serif  
+	li
+		display: inline-block
+		width: 25%
+		padding: 0 19px
+		text-align: center
+		h4
+			color: #2c2e37
+			font-size: 18px
+			font-weight: 900
+			margin-bottom: 5px
+		p
+			color: #949494
+			font-size: 16px
+			font-weight: 400
+
+.travel_us
+	background: url("../img/travel_bg.png") no-repeat 49% 50px
+	min-height: 1005px
+
+.travel_list
+	padding: 0
+	li
+		display: inline-block
+		position: relative
+		width: 17.545%
+		margin-right: 30px
+		h3,
+		p,
+		del,
+		.price
+			position: absolute
+			font-family: 'Open Sans', sans-serif
+			color: #fff
+		h3
+			font-size: 28px
+			font-weight: 400
+			bottom: 42%
+			left: 10%
+		p
+			font-size: 14px
+			bottom: 34%
+			left: 10%
+		del
+			font-size: 16px
+			bottom: 5%
+			left: 10%
+		.price
+			font-size: 26px
+			font-weight: 700
+			right: 6%
+			bottom: 3%
+	li:last-child
+		margin-right: 0
+
+.star_rating
+	text-indent: -9999px
+	background: url("../img/travel/stars.png") repeat-x
+	height: 17px
+	top: 3%
+	left: 10%
+	position: absolute
+	width: 44%
+
+.rating2,
+.rating3,
+.rating4
+	width: 55%
+
+.rating5
+	width: 33%
+
+.gallery_top_img
+	margin-bottom: 30px
+
+.gallerys
+	margin-bottom: 70px
+
+.logos
+	background-color: #f8f9fa
+
+.logo_list
+	margin: 0 auto
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding: 73px 10px
+
+.our_clients_say
+	background: url("../img/clients/clients_bg.png") no-repeat center 55px
+
+.clients
+	background: url("../img/clients/tick.png") no-repeat 15px 10px
+	font-family: 'Open Sans', sans-serif
+	margin-bottom: 100px
+	img
+		float: left
+.quote
+	padding: 30px 0 10px
+	color: #bcbcbc
+	font-size: 16px
+	font-weight: 400
+
+
+.client_name
+	margin: 0
+	padding: 21px 80px
+	font-size: 16px
+	font-weight: 700
+	color: #36aeea
+	span
+		font-weight: 300
+
+.contacts_input
+	width: 44%
+	height: 485px
+	padding: 0 30px
+	font-family: 'Open Sans', sans-serif
+	text-align: center
+	margin: 45px auto
+	border-radius: 8px
+	opacity: .98
+	box-shadow: 0 5px 51px rgba(0, 0, 0, 0.75)
+	background: url("../img/clients/form_bg.png") no-repeat
+	margin-bottom: 160px
+	h3
+		color: #36aeea
+		font-size: 36px
+		font-weight: 700
+		margin: 0
+		padding-top: 40px
+		text-transform: uppercase
+		letter-spacing: 5px
+	p
+		color: #383e4a
+		font-size: 16px
+		font-weight: 400
+		margin: 5px 0 20px
+	input
+		width: 100%
+		border: 3px solid #fff
+		border-radius: 4px
+		padding: 17px 10px
+		margin-bottom: 20px
+	button
+		color: #fff
+		font-size: 16px
+		font-weight: 700
+		width: 100%
+		background-color: #36aeea
+		border-radius: 4px
+		border: 0
+		padding: 19px
+		text-transform: uppercase
+		letter-spacing: 2px
+
+.footer_content
+	background: linear-gradient(to right, #3a4d53, #3f656d)
+
+.footer_text
+	color: #6c97a6
+	font-size: 18px
+	font-family: 'Open Sans', sans-serif
+	font-weight: 400
+	position: absolute
+	top: 27px
+
+.footer_phone
+	font-family: 'Roboto', sans-serif 
+	font-size: 27px
+	font-weight: 900
+	color: #7ec4d6
+	position: absolute
+	right: 0
+	top: 23px
+
+.social_links
+	padding: 6px 0
+	text-align: center
+	li
+		display: inline-block
+		margin-right: 5px
+// font-family: 'Open Sans', sans-serif
+// font-family: 'Roboto', sans-serif 
