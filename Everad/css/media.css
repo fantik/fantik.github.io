@@ -176,6 +176,7 @@ p.lock {
 }
 .logo .logotip {
     margin-right: 40px;
+    width: 100%;
 }
 .img_top {
     margin-top: -8px;
