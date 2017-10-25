@@ -465,6 +465,9 @@ section .personal_header {
 .s_contacts {
 	background-color: #FAFAFA;
 }
+.s_contacts .s_descr::after {
+    background-color: #222;
+}
 .main_form button {
     border: none;
     color: #fff;
