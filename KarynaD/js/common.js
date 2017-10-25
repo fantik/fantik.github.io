@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
-$("#portfolio_grid").mixItUp();
+	$("#portfolio_grid").mixItUp();
 
-$(".s_portfolio li").click(function() {
-		$(".s_portfolio li").removeClass("active");
-		$(this).addClass("active");
+	$(".s_portfolio li").click(function() {
+	$(".s_portfolio li").removeClass("active");
+	$(this).addClass("active");
 	});
 
-$(".popup").magnificPopup({type:"image"});
+	$(".popup").magnificPopup({type:"image"});
 	$(".popup_content").magnificPopup({
 		type:"inline",
 		midClick: true
@@ -26,20 +26,22 @@ $(".popup").magnificPopup({type:"image"});
 	$(".left .resume_item").animated("fadeInLeft", "fadeOutDown");
 	$(".right .resume_item").animated("fadeInRight", "fadeOutDown");
 	
-function heightDetect() {
+	function heightDetect() {
 		$(".main_head").css("height", $(window).height());
 	};
+
 	heightDetect();
 	$(window).resize(function() {
 		heightDetect();
 	});
 
-$(".popup").magnificPopup({type:"image"});
+	$(".popup").magnificPopup({type:"image"});
 	$(".popup_content").magnificPopup({
 		type:"inline",
 		midClick: true
 	});
-		$(".toggle_mnu").click(function() {
+
+	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");
 	});
 
@@ -65,12 +67,12 @@ $(".popup").magnificPopup({type:"image"});
 		$(this).find("a").attr("href", "#work_" + i);
 		$(this).find(".podrt_descr").attr("id", "work_" + i);
 	});
-	
+
+	$("input, select, textarea").jqBootstrapValidation();
 });
+
 $(window).load(function() {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
-
-
 }); 

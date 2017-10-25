@@ -86,7 +86,6 @@
 					<h2 class="personal_header">Karyna Demchenko</h2>
 					<ul>
 						<li>Web & Graphic design</li>
-						<li>Birthday: 17 december 1992 </li>
 						<li>Telephone: +3 8 067 464 74 64</li>
 						<li>E-mail: <a href="mailto:karyna1792@gmail.com">karyna1792@gmail.com</a></li>
 					</ul>
@@ -337,6 +336,57 @@
 	</div>
 </section>
 
+<section id="contacts" class="s_contacts">
+	<div class="section_header">
+		<h2>Contacts</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Send me a message</div>
+		</div>
+	</div>
+	<div class="section_content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 form_content">
+					<form action="http://formspree.io/karyna1792@gmail.com" class="main_form" novalidate target="_blank" method="post">
+						<label class="form-group">
+							<span class="color_element">*</span> Your name:
+							<input type="text" name="name" placeholder="Your name" data-validation-required-message="You did not enter a name" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Your E-mail:
+							<input type="email" name="email" placeholder="Your E-mail" data-validation-required-message="Not entered correctly E-mail" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Your message:
+							<textarea name="message" placeholder="Your message" data-validation-required-message="You did not enter a message" required></textarea>
+							<span class="help-block text-danger"></span>
+						</label>
+						<button>Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="main_footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				&copy; 2017 Denys Demchenko
+				<div class="social_wrap">
+					<ul>
+						<li><a href="https://vk.com/id15590809" target="_blank"><i class="fa fa-vk"></i></a></li>
+							<li><a href="https://www.facebook.com/karyna.demchenko?fref=pb&hc_location=friends_tab&pnref=friends.all" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.behance.net/karyna17929147" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
 
 	<div class="hidden"></div>
@@ -352,6 +402,7 @@
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/mixitup/mixitup.min.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 	<script src="js/common.js"></script>
 
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
