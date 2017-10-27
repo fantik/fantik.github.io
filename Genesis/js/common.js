@@ -16,7 +16,10 @@ $(document).ready(function() {
 		heightDetect();
 	});
 		$("input, select, textarea").jqBootstrapValidation();
-
+		
+		$(".toggle_mnu").click(function() {
+		$(".sandwich").toggleClass("active");
+	});
 		$(".top_mnu ul a").click(function() {
 		$(".top_mnu").fadeOut(600);
 		$(".sandwich").toggleClass("active");
