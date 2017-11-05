@@ -1,0 +1,1 @@
+function PopUpShow(){$("#popup1").show()}function PopUpHide(){$("#popup1, #popup2").hide()}$(document).ready(function(){$("input, select, textarea").jqBootstrapValidation(),$(".submit").click(function(){$("#popup2").css("display","block")}),PopUpHide()});
