@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "GothamProMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/GothamProMedium/GothamPro-Medium.woff") format("woff"),
+       url("../fonts/GothamProMedium/GothamPro-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "GothamProRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+       url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype"); }
+/*@font-face {
+  font-family: "EdwardianScriptITC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/EdwardianScriptITC/ITCEDSCR.TTF.eot?#iefix") format("embedded-opentype"),
+       url("../EdwardianScriptITC/EdwardianScriptITC.woff") format("woff"),
+       url("../EdwardianScriptITC/EdwardianScriptITC.ttf") format("truetype"); }*/

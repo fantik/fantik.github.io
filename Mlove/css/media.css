@@ -1,0 +1,328 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	ul.top_mnu_list li {
+		padding-left: 25px;
+	}
+	.main_header_text h1 {
+		font-size: 31px;
+		line-height: 38px;
+	}
+	.we_offer_text .text_item p {
+		font-size: 15px;
+	}
+	.heart_item.item5 {
+		bottom: -205px;
+		right: 137px;
+	}
+	.heart_item.item4 {
+		bottom: -70px;
+		right: 320px;
+	}
+	.heart_item.item3 {
+		bottom: -245px;
+		right: 359px;
+	}
+	.heart_item.item2 {
+		bottom: -134px;
+		left: 295px;
+	}
+	.heart_item.item1 {
+		bottom: -215px;
+		left: 170px;
+	}
+	.about_us {
+		background: url(../img/aboutUs_bg.jpg)no-repeat -400px top;
+		background-color: #f2f2f2;
+	}
+	.about_us_text {
+		width: 45%;
+	}
+	.first h4, .second h4, .third h4 {
+		font-size: 12px;
+	}
+	.first h4, .second h4 {
+		padding: 60px 4px 80px 80px;
+	}
+	.advantages_item p {
+		font-size: 16px;
+	}
+	.questions h2 {
+		font-size: 33px;
+	}
+	.questions p {
+		margin: 40px;
+	}
+	.main_footer li {
+		padding: 5px 0;
+	}
+	.main_footer ul, .main_footer li, .main_footer li a {
+		font-size: 17px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	ul.top_mnu_list li {
+		padding-left: 15px;
+	}
+	.main_header_text h1 {
+		font-size: 24px;
+	}
+
+	.main_header_text {
+		margin-top: 180px;
+	}
+	.we_offer_text .text_item {
+		width: 33%;
+	}
+	.we_offer_text .text_item p {
+		font-size: 12px;
+	}
+	.heart_item img {
+		width: 50%;
+	}
+	.heart_item.item5 {
+		bottom: -65px;
+		right: 65px;
+	}
+	.heart_item.item4 {
+		bottom: -30px;
+		right: 240px;
+	}
+	.heart_item.item3 {
+		bottom: -130px;
+		right: 205px;
+	}
+	.heart_item.item2 {
+		bottom: -134px;
+		left: 275px;
+	}
+	.heart_item.item1 {
+		bottom: -78px;
+		left: 215px;
+	}
+	.we_offer {
+		height: 470px;
+	}
+	.about_us {
+		background: url(../img/aboutUs_bg.jpg)no-repeat -500px top;
+	}
+	.about_us_text {
+		background: url(../img/aboutUs.png)no-repeat left top;
+		background-size: auto auto;
+		padding-top: 89px;
+		background-size: 90%;
+	}
+	.first, .second, .third {
+		background-size: 100%;
+	}
+	.first h4, .second h4, .third h4 {
+		padding: 51px 4px 80px 64px;
+		font-size: 10px;
+	}
+	.first {
+		background: url(../img/1st.png)no-repeat 5px -9px;
+		background-size: 100%;
+	}
+	.questions h2 {
+		font-size: 30px;
+		text-align: center;
+		float: none;
+	}
+	.questions p {
+		margin: 40px;
+		display: inherit;
+		text-align: center;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.toggle_mnu {display: block;}
+	.top_mnu_list {
+		display: none;
+	}
+	.logo {
+		float: none;
+	}
+	ul.top_mnu_list {
+		float: none;
+		line-height: 50px;
+		width: 100%;
+		height: 100%;
+		right: 0;
+		top: 0;
+	}
+	ul.top_mnu_list li {
+		text-align: center;
+	}
+	.main_header_text {
+		width: 80%;
+	}
+	.heart_item.item5 {
+		bottom: -375px;
+		right: -35px;
+	}
+	.heart_item.item4 {
+		bottom: -330px;
+		right: 140px;
+	}
+	.heart_item.item3 {
+		bottom: -425px;
+		right: 100px;
+	}
+	.heart_item.item2 {
+		bottom: -334px;
+		left: 125px;
+	}
+	.heart_item.item1 {
+		bottom: -400px;
+		left: 66px;
+	}
+	.we_offer_text .text_item {
+		width: 49%;
+	}
+	.we_offer_text .text_item {
+		height: 85px;
+	}
+	.about_us {
+		background: none;
+		background-color: #f2f2f2;
+		height: 340px;
+	}
+	.about_us_text {
+		width: 90%;
+		float: none;
+	}
+	.lets_begin_content h2 {
+		text-align: center;
+	}
+	.first, .second, .third {
+		background-size: contain;
+		margin-bottom: 10px;
+	}
+	.first {
+		background: url(../img/1st.png)no-repeat top center;
+	}
+	.first h4, .second h4, .third h4 {
+		padding: 65px 58px 80px 193px;
+		font-size: 10px;
+	}
+	.col-md-4.col-sm-4.footer_contacts {
+		border-top: 1px solid lightgray;
+	}
+	.footer_logo p {
+		margin-top: 15px;
+	}
+	.footer_navigation_list {
+		font-size: 17px;
+		text-align: center;
+	}
+	.questions h2 {
+		font-size: 24px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.main_header_text {
+		width: 100%;
+	}
+	.main_header_text {
+		margin-top: 105px;
+	}
+	.main_header_text h1 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+	.we_offer_text .text_item {
+		width: 90%;
+	}
+	.we_offer {
+		height: 675px;
+	}
+	.heart_item.item5 {
+		bottom: -575px;
+		right: -55px;
+	}
+	.heart_item.item4 {
+		bottom: -530px;
+		right: 80px;
+	}
+	.heart_item.item3 {
+		bottom: -625px;
+		right: 20px;
+	}
+	.heart_item.item2 {
+		bottom: -575px;
+		left: 55px;
+	}
+	.heart_item.item1 {
+		bottom: -620px;
+		left: 15px;
+	}
+	.about_us_text {
+		background: url(../img/aboutUs.png)no-repeat left top;
+		background-size: auto auto;
+		padding-top: 55px;
+		background-size: 85%;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.first h4, .second h4, .third h4 {
+		padding: 68px 10px 80px 94px;
+		font-size: 10px;
+	}
+	.footer_logo p {
+		margin-top: 15px;
+		text-align: center;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_mnu_list {
+		display: inline-block!important;
+		float: right!important;
+	}
+	.top_mnu_list li{
+		display: inline-block!important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.top_mnu_list {
+		display: inline-block;
+		float: right;
+	}
+	.top_mnu_list li{
+		display: inline-block;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
