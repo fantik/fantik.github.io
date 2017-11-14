@@ -352,13 +352,9 @@
 		width: 78%;
 		margin-left: 51px;
 	}
-	.before40 .big_side,
-	.after50 .big_side {
-		display: table-header-group;
-	}
-	.before40 .little_side,
-	.after50 .little_side {
-		display: table-footer-group;
+	.before40, .after50 {
+		display: flex;
+		flex-direction: column-reverse;
 	}
 	.before40 .line_separator {
 		right: -70px;
