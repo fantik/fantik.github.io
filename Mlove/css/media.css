@@ -60,6 +60,58 @@
 	.main_footer ul, .main_footer li, .main_footer li a {
 		font-size: 17px;
 	}
+	.man h2,
+	.woman h2 {
+		width: 20%;
+	}
+	.before30 .little_side .person_item,
+	.before50 .little_side .person_item {
+		padding-left: 30px;
+	}
+	.big_side .person_item img {
+		width: 100%;
+	}
+	.before30 .line_separator, .before50 .line_separator {
+		left: -147px;
+		top: 94px;
+	}
+	.big_side h3 {
+		margin: 20px 0;
+		font-size: 46px;
+	}
+	.before40 .little_side .person_item,
+	.after50 .little_side .person_item {
+		padding-right: 30px;
+	}
+	.before40 .line_separator {
+		width: 423px;
+	}
+	.before30 .line_separator {
+		width: 378px;
+	}
+	.before50 .line_separator {
+		width: 460px;
+	}
+	.after50 .line_separator {
+		width: 340px;
+	}
+	.woman .before30 .line_separator {
+		width: 368px;
+	}
+	.woman .before40 .line_separator {
+		width: 420px;
+	}
+	.woman .before50 .line_separator {
+		width: 444px;
+	}
+	.before30 .little_side .person_item, .before50 .little_side .person_item {
+		padding-left: 29px;
+	}
+	.woman .after50 .line_separator {
+		width: 349px;
+	}
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -136,6 +188,64 @@
 		display: inherit;
 		text-align: center;
 	}
+	.man h2,
+	.woman h2 {
+		width: 25%;
+	}
+	.before30 .little_side .person_item, .before50 .little_side .person_item {
+		float: left;
+		padding: 0;
+	}
+	.before30 .little_side .person_item img,
+	.before50 .little_side .person_item img,
+	.before40 .little_side .person_item img,
+	.after50 .little_side .person_item img {
+		width: 100%;
+	}
+	.person_item p {
+		font-size: 15px;
+	}
+	.before30 .little_side .person_item,
+	.before50 .little_side .person_item,
+	.before40 .little_side .person_item,
+	.after50 .little_side .person_item {
+		padding: 10px;
+		width: 33%;
+	}
+	.big_side h3 {
+		margin: 20px 0;
+		font-size: 34px;
+	}
+	.messge_img {
+		width: 25px !important;
+		height: 25px !important;
+	}
+	.before30 .line_separator {
+		left: -195px;
+		top: 71px;
+	}
+	.before40 .line_separator {
+		right: -193px;
+	}
+	.before50 .line_separator {
+		left: -223px;
+	}
+	.after50 .line_separator {
+		right: -160px;
+	}
+	.woman .before30 .line_separator {
+    width: 315px;
+}
+.woman .before40 .line_separator {
+    width: 345px;
+}
+.woman .before50 .line_separator {
+    width: 365px;
+  }
+  .woman .after50 .line_separator {
+    width: 290px;
+}
+
 
 }
 
@@ -229,6 +339,50 @@
 	.questions h2 {
 		font-size: 24px;
 	}
+	.man h2,
+	.woman h2 {
+		width: 39%;
+		left: 33%;
+	}
+	.before30 .line_separator {
+		left: -75px;
+	}
+	.big_side .person_item {
+		margin-top: 60px;
+		width: 78%;
+		margin-left: 51px;
+	}
+	.before40 .big_side,
+	.after50 .big_side {
+		display: table-header-group;
+	}
+	.before40 .little_side,
+	.after50 .little_side {
+		display: table-footer-group;
+	}
+	.before40 .line_separator {
+		right: -70px;
+	}
+	.before50 .line_separator {
+		left: -110px;
+		top: 50px;
+	}
+	.after50 .line_separator {
+		right: -40px;
+	}
+	.woman .before30 .line_separator {
+    width: 430px;
+}
+.woman .before40 .line_separator {
+    width: 460px;
+}
+.woman .before50 .line_separator {
+    width: 480px;
+}
+.woman .after50 .line_separator {
+    width: 405px;
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -285,6 +439,51 @@
 		margin-top: 15px;
 		text-align: center;
 	}
+	.man h2,
+	.woman h2 {
+		width: 58%;
+		left: 24%;
+	}
+	.before30 .little_side .person_item,
+	.before50 .little_side .person_item,
+	.before40 .little_side .person_item,
+	.after50 .little_side .person_item {
+		padding: 10px;
+		width: 50%;
+	}
+	.big_side .person_item {
+		margin-top: 60px;
+		width: 78%;
+		margin-left: 33px;
+	}
+	.before30 .line_separator, {
+		left: -152px;
+		top: 58px;
+	}
+	.before40 .line_separator {
+		right: -155px;
+	}
+	.before50 .line_separator {
+		left: -189px;
+		top: 50px;
+	}
+	.after50 .line_separator {
+		right: -125px;
+	}
+	.woman .before30 .line_separator {
+		left: -210px;
+		top: 58px;
+	}
+	.woman .before40 .line_separator {
+    width: 380px;
+}
+.woman .before50 .line_separator {
+    width: 405px;
+    top: 63px;
+}
+.woman .after50 .line_separator {
+    width: 325px;
+}
 }
 
 /* Custom, iPhone Retina */

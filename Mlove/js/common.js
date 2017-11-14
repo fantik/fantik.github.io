@@ -9,6 +9,8 @@ $(document).ready(function() {
 	$(".animation_2").animated("fadeInDown");
 	$(".animation_3").animated("fadeInUp");
 	$(".animation_4").animated("fadeInRight");
+	$(".animation_5").animated("zoomIn");
+
 
 
 	$(".toggle_mnu").click(function() {

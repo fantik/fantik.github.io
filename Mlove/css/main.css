@@ -4,6 +4,9 @@ body {
 	min-width: 320px;
 	position: relative;
 }
+a {
+	cursor: pointer;
+}
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -334,6 +337,134 @@ background-image: linear-gradient(82deg, rgba(205, 88, 135, 0.66) 0%, rgba(214, 
 }
 .footer_logo p {
 	margin-top: 150px;
+}
+.man,
+.woman {
+	background-color: #f2f2f2;
+}
+.man h2 {
+	background-color: #f2f2f2;
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+	width: 13%;
+	left: 40%;
+	font-weight: 700;
+	background: linear-gradient(to right, #61a6a3, #2f4c59);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.woman h2 {
+	background-color: #f2f2f2;
+	text-transform: uppercase;
+	font-size: 30px;
+	position: relative;
+	width: 18%;
+	left: 40%;
+	font-weight: 700;
+	background: linear-gradient(to right, #a6476e, #ad2243);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.big_side h3 {
+	font-size: 56px;
+	color: #000;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+		-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+.before30, 
+.before40,
+.before50,
+.after50 {
+    overflow: initial;
+    margin-bottom: 40px;
+}
+.before30 .line_separator,
+.before50 .line_separator {
+	border-top: 4px solid #395c6c;
+	position: absolute;
+	width: 411px;
+	left: -135px;
+	top: 75px;
+	margin-top: 10px;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.before50 .line_separator {
+	width: 495px;
+}
+.before40 .line_separator,
+.after50 .line_separator {
+	border-top: 4px solid #395c6c;
+	position: absolute;
+	width: 480px;
+	right: -114px;
+	top: 75px;
+	margin-top: 10px;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.woman .before30 .line_separator,
+.woman .before50 .line_separator {
+	border-top: 4px solid #b83154;
+	position: absolute;
+	width: 430px;
+	left: -131px;
+	top: 75px;
+	margin-top: 10px;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.woman .before50 .line_separator {
+	width: 500px;
+}
+.woman .before40 .line_separator,
+.woman .after50 .line_separator {
+	border-top: 4px solid #b83154;
+	position: absolute;
+	width: 480px;
+	right: -114px;
+	top: 75px;
+	margin-top: 10px;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.woman .after50 .line_separator {
+	    width: 395px;
+}
+.before30 .little_side .person_item,
+.before50 .little_side .person_item {
+	float: left;
+	padding: 35px 0;
+	padding-left: 74px;
+}
+.before40 .little_side .person_item,
+.after50 .little_side .person_item {
+	float: left;
+	padding: 35px 0;
+	padding-right: 75px;
+}
+.person_item p {
+	color: #000;
+	font-size: 24px;
+	text-align: center;
+	margin: 10px 0;
+}
+.big_side .person_item {
+	margin-top: 60px;
+}
+.after50 .line_separator {
+	width: 389px;
+}
+.messge_img {
+	width: 35px!important;
+	height: 35px!important;
+}
+.clearfix {
+	margin-bottom: 50px;
 }
 /*
 	font-family: "EdwardianScriptITC";
