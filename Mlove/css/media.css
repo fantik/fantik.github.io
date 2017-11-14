@@ -110,7 +110,12 @@
 	.woman .after50 .line_separator {
 		width: 349px;
 	}
-
+.services_top_firstList li, .services_top_secondList li, .services_bottom_list li {
+    font-size: 16px;
+  }
+  .serices_bottomPart_text p {
+    font-size: 16px;
+  }
 
 }
 
@@ -245,7 +250,25 @@
   .woman .after50 .line_separator {
     width: 290px;
 }
-
+.services h2 {
+    width: 47%;
+    left: 34%;
+  }
+  .services_top h3 {
+    font-size: 20px;
+  }
+  ol.services_top_secondList h3 {
+    margin-left: 290px;
+}
+ol.services_top_secondList {
+    width: 90%;
+}
+.step_toLove_content p {
+    width: 53%;
+  }
+  .serices_bottomPart_content {
+    background: url(../img/services_bottom_bg.jpg)no-repeat 250px;
+}
 
 }
 
@@ -378,7 +401,32 @@
 .woman .after50 .line_separator {
     width: 405px;
 }
-
+.services h2 {
+    width: 71%;
+    left: 22%;
+}
+.services_top_firstList {
+    width: 87%;
+}
+ol.services_top_secondList img {
+    float: none;
+  }
+  ol.services_top_secondList h3 {
+    margin-left: 10px;
+}
+.step_toLove_content p {
+    width: 81%;
+    line-height: 18px;
+}
+.step_toLove_content h2 {
+    font-size: 26px;
+  }
+  .serices_bottomPart_text {
+    width: 68%;
+  }
+  .serices_bottomPart_content {
+    background: url(../img/services_bottom_bg.jpg)no-repeat 200px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -479,6 +527,22 @@
 }
 .woman .after50 .line_separator {
     width: 325px;
+}
+.services h2 {
+    width: 76%;
+    left: 14%;
+    font-size: 24px;
+}
+.services_top h3 {
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+}
+.services_top_firstList li, .services_top_secondList li, .services_bottom_list li {
+    font-size: 14px;
+}
+.serices_bottomPart_content {
+    background: url(../img/services_bottom_bg.jpg)no-repeat 100px;
 }
 }
 
