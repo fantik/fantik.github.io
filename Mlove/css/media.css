@@ -110,13 +110,41 @@
 	.woman .after50 .line_separator {
 		width: 349px;
 	}
-.services_top_firstList li, .services_top_secondList li, .services_bottom_list li {
-    font-size: 16px;
-  }
-  .serices_bottomPart_text p {
-    font-size: 16px;
-  }
-
+	.services_top_firstList li, .services_top_secondList li, .services_bottom_list li {
+		font-size: 16px;
+	}
+	.serices_bottomPart_text p {
+		font-size: 16px;
+	}
+	.contacts_content h2 {
+		width: 23%;
+		left: 37%;
+	}
+	.contacts_content_text {
+		width: 44%;
+		float: left;
+		margin-right: 40px;
+	}
+	.main_header_form {
+		margin: 57px 0 98px;
+	}
+	a.close {
+		right: 208px;
+		top: 73px;
+	}
+	#popup2 .main_header_form {
+		width: 375px;
+	}
+	#popup2 a.close {
+		right: 285px;
+		top: 31px;
+	}  
+	#popup1 .main_header_form {
+		left: 28%;
+	}
+	a.close {
+		right: 278px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -239,36 +267,74 @@
 		right: -160px;
 	}
 	.woman .before30 .line_separator {
-    width: 315px;
-}
-.woman .before40 .line_separator {
-    width: 345px;
-}
-.woman .before50 .line_separator {
-    width: 365px;
-  }
-  .woman .after50 .line_separator {
-    width: 290px;
-}
-.services h2 {
-    width: 47%;
-    left: 34%;
-  }
-  .services_top h3 {
-    font-size: 20px;
-  }
-  ol.services_top_secondList h3 {
-    margin-left: 290px;
-}
-ol.services_top_secondList {
-    width: 90%;
-}
-.step_toLove_content p {
-    width: 53%;
-  }
-  .serices_bottomPart_content {
-    background: url(../img/services_bottom_bg.jpg)no-repeat 250px;
-}
+		width: 315px;
+	}
+	.woman .before40 .line_separator {
+		width: 345px;
+	}
+	.woman .before50 .line_separator {
+		width: 365px;
+	}
+	.woman .after50 .line_separator {
+		width: 290px;
+	}
+	.services h2 {
+		width: 47%;
+		left: 34%;
+	}
+	.services_top h3 {
+		font-size: 20px;
+	}
+	ol.services_top_secondList h3 {
+		margin-left: 290px;
+	}
+	ol.services_top_secondList {
+		width: 90%;
+	}
+	.step_toLove_content p {
+		width: 53%;
+	}
+	.serices_bottomPart_content {
+		background: url(../img/services_bottom_bg.jpg)no-repeat 250px;
+	}
+	.contacts_content h2 {
+		width: 34%;
+		left: 36%;
+	}
+	.contacts_content_text {
+		width: 37%;
+	}
+	.contacts_content_text p {
+		font-size: 16px;
+	}
+	.contacts_content_list li {
+		font-size: 15px;
+	}
+	.main_header_form {
+		width: 40%;
+	}
+	.contacts .main_header_form h4 {
+		font-size: 21px;
+	}
+	.form-group input, .form-group textarea {
+		margin-bottom: 12px;
+	}
+	.main_header_form button {
+		margin: 6px 10px 16px 82px;
+		padding: 16px 0;
+	}
+	#popup1 .main_header_form {
+		left: 21%;
+	}
+	a.close {
+		right: 176px;
+	}
+	#popup2 a.close {
+		right: 143px;
+	}
+	.main_header_form button {
+		margin: 6px 10px 16px 95px;
+	}
 
 }
 
@@ -390,43 +456,74 @@ ol.services_top_secondList {
 		right: -40px;
 	}
 	.woman .before30 .line_separator {
-    width: 430px;
-}
-.woman .before40 .line_separator {
-    width: 460px;
-}
-.woman .before50 .line_separator {
-    width: 480px;
-}
-.woman .after50 .line_separator {
-    width: 405px;
-}
-.services h2 {
-    width: 71%;
-    left: 22%;
-}
-.services_top_firstList {
-    width: 87%;
-}
-ol.services_top_secondList img {
-    float: none;
-  }
-  ol.services_top_secondList h3 {
-    margin-left: 10px;
-}
-.step_toLove_content p {
-    width: 81%;
-    line-height: 18px;
-}
-.step_toLove_content h2 {
-    font-size: 26px;
-  }
-  .serices_bottomPart_text {
-    width: 68%;
-  }
-  .serices_bottomPart_content {
-    background: url(../img/services_bottom_bg.jpg)no-repeat 200px;
-}
+		width: 430px;
+	}
+	.woman .before40 .line_separator {
+		width: 460px;
+	}
+	.woman .before50 .line_separator {
+		width: 480px;
+	}
+	.woman .after50 .line_separator {
+		width: 405px;
+	}
+	.services h2 {
+		width: 71%;
+		left: 22%;
+	}
+	.services_top_firstList {
+		width: 87%;
+	}
+	ol.services_top_secondList img {
+		float: none;
+	}
+	ol.services_top_secondList h3 {
+		margin-left: 10px;
+	}
+	.step_toLove_content p {
+		width: 81%;
+		line-height: 18px;
+	}
+	.step_toLove_content h2 {
+		font-size: 26px;
+	}
+	.serices_bottomPart_text {
+		width: 68%;
+	}
+	.serices_bottomPart_content {
+		background: url(../img/services_bottom_bg.jpg)no-repeat 200px;
+	}
+	.contacts_content h2 {
+		width: 49%;
+		left: 29%;
+	}
+	.contacts_content_text {
+		width: 100%;
+		float: none;
+	}
+	.main_header_form {
+		width: 70%;
+		margin: 57px 0 0 67px;
+	}
+	#popup1 .main_header_form {
+		left: 3%;
+	}
+	a.close {
+		right: 30px;
+	}
+	#popup2 .main_header_form {
+		left: 11%;
+	}
+	#popup2 a.close {
+		right: 91px;
+	}
+	#popup1 .main_header_form button {
+		margin: 15px 10px 35px 132px;
+	}
+	.main_header_form button {
+		margin: 6px 10px 16px 98px;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -519,31 +616,61 @@ ol.services_top_secondList img {
 		top: 58px;
 	}
 	.woman .before40 .line_separator {
-    width: 380px;
-}
-.woman .before50 .line_separator {
-    width: 405px;
-    top: 63px;
-}
-.woman .after50 .line_separator {
-    width: 325px;
-}
-.services h2 {
-    width: 76%;
-    left: 14%;
-    font-size: 24px;
-}
-.services_top h3 {
-    font-size: 17px;
-    margin: 0;
-    text-align: center;
-}
-.services_top_firstList li, .services_top_secondList li, .services_bottom_list li {
-    font-size: 14px;
-}
-.serices_bottomPart_content {
-    background: url(../img/services_bottom_bg.jpg)no-repeat 100px;
-}
+		width: 380px;
+	}
+	.woman .before50 .line_separator {
+		width: 405px;
+		top: 63px;
+	}
+	.woman .after50 .line_separator {
+		width: 325px;
+	}
+	.services h2 {
+		width: 76%;
+		left: 14%;
+		font-size: 24px;
+	}
+	.services_top h3 {
+		font-size: 17px;
+		margin: 0;
+		text-align: center;
+	}
+	.services_top_firstList li, .services_top_secondList li, .services_bottom_list li {
+		font-size: 14px;
+	}
+	.serices_bottomPart_content {
+		background: url(../img/services_bottom_bg.jpg)no-repeat 100px;
+	}
+	.contacts_content h2 {
+		width: 66%;
+		left: 19%;
+	}
+	.main_header_form {
+		width: 97%;
+		margin: 54px 0 0 6px;
+	}
+	.form-group input, .form-group textarea {
+		margin-left: 31px;
+	}
+	#popup2 .main_header_form {
+		width: 308px;
+	}
+	#popup2 .form-group input, #popup2 .form-group textarea {
+		display: block;
+		width: 83%;
+	}
+	#popup2 .main_header_form {
+		left: 2%;
+	}
+	#popup1 .main_header_form {
+		width: 301px;
+	}
+	.form-group input, .form-group textarea {
+		margin-left: 10px;
+	}
+	#popup1 .main_header_form button {
+		margin: 15px 10px 35px 83px;
+	}
 }
 
 /* Custom, iPhone Retina */

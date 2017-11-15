@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Контакты - MagicLove</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header class="main_header">
+		<nav class="top_mnu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">					
+						<button class="toggle_mnu">
+							<span class="sandwich">
+								<span class="sw-topper"></span>
+								<span class="sw-bottom"></span>
+								<span class="sw-footer"></span>
+							</span>
+						</button>	
+						<div class="logo"><img src="img/logo.png" alt="Logo"></div>
+						<ul class="top_mnu_list">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="man.html">Мужчины</a></li>
+							<li><a href="woman.html">Женщины</a></li>
+							<li><a href="services.html">Услуги и цены</a></li>
+							<li><a  class="active" href="#contacts">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="main_header_text">
+						<h1>Заполните анкету,<br>а магию любви сделаем мы!</h1>
+						<p>После заполнения анкеты, мы обязательно свяжемся с Вами, обсудим варианты успешного поиска идеальной пары. Анкеты партнеров, которые желают с вами познакомиться будут отправляться на Вашу почту.</p>
+						<p class="centered"><a href="javascript:PopUpShow()">заполнить анкету</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="b-popup" id="popup1">
+						<div class="b-popup-content">
+						<div class="popup_content ">
+							<form class="main_header_form">
+							<h4>Анкета</h4>
+							<label class="form-group">
+							<span class="color_element">*</span> Имя:
+							<input type="text" name="name" data-validation-required-message="Введите имя" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Дата рождения:
+							<input type="text" name="date" data-validation-required-message="Введите Дату рождения" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span>  Телефон:
+							<input type="number" name="phone"  data-validation-number-message="Введите телефон" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span> Skype:
+							<input type="text" name="name" data-validation-required-message="Ваш Skype" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<span class="color_element">*</span>  E-mail:
+							<input type="email" name="email"  data-validation-required-message="Введите правильный Email" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<div class="file">
+							<h3>ФОТО</h3>
+							<input type="file">
+						</div>					
+						<button class="submit">Отправить</button>
+					</form>
+						</div>
+						<a class="close" href="javascript:PopUpHide()">Close</a>
+					</div>
+				</div>
+	</header>
+	
+	<section class="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="contacts_content">
+						<h2>Контакты</h2>
+						<div class="contacts_content_text">
+							<p>По всем интересующим вопросам Вы можете обратиться за консультацией к нашим специалистам.</p>
+							<p>Время работы: с понедельника по пятницу с 11:00 до 18:30</p>
+							<ul class="contacts_content_list">
+								<li><i class="fa fa-phone" aria-hidden="true"></i>+ 3 8 (067) 223 33 41</li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i>magiclove@gmail.com</li>
+								<li><i class="fa fa-skype" aria-hidden="true"></i>magiclove</li>
+								<li><i class="fa fa-facebook" aria-hidden="true"></i>magicloveagency</li>
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i>Украина, г. Киев, пр. Науки 23</li>
+							</ul>
+						</div>
+						<div class="contacts_content_map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.2923816501375!2d30.529205815195333!3d50.39838839899665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4db7f134a7%3A0x3bcb1fa40c5d94d6!2z0L_RgNC-0YHQvy4g0J3QsNGD0LrQuCwgMjMsINCa0LjQtdCy!5e0!3m2!1sru!2sua!4v1510672011101" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="hidden"></div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
