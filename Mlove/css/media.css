@@ -139,9 +139,6 @@
 		right: 285px;
 		top: 31px;
 	}  
-	#popup1 .main_header_form {
-		left: 28%;
-	}
 	a.close {
 		right: 278px;
 	}
@@ -323,9 +320,6 @@
 		margin: 6px 10px 16px 82px;
 		padding: 16px 0;
 	}
-	#popup1 .main_header_form {
-		left: 21%;
-	}
 	a.close {
 		right: 176px;
 	}
@@ -505,9 +499,6 @@
 		width: 70%;
 		margin: 57px 0 0 67px;
 	}
-	#popup1 .main_header_form {
-		left: 3%;
-	}
 	a.close {
 		right: 30px;
 	}
@@ -661,9 +652,6 @@
 	}
 	#popup2 .main_header_form {
 		left: 2%;
-	}
-	#popup1 .main_header_form {
-		width: 301px;
 	}
 	.form-group input, .form-group textarea {
 		margin-left: 10px;

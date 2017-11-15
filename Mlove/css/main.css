@@ -33,8 +33,11 @@ section,
 	background-size: cover;
 }
 nav.top_mnu {
-	background-color: rgba(149, 149, 149, 0.3);
+	background-color: rgba(149, 149, 149, 0.4);
 	box-shadow: 0.1px 2px 8.4px 0.6px rgba(0, 0, 0, 0.29);
+	position: fixed;
+	z-index: 3;
+	width: 100%;
 }
 .logo {
 	padding-top: 10px;
@@ -143,8 +146,7 @@ ul.top_mnu_list li .active {
 	width: 50%;
 	font-family: "GothamProMedium";
 	color: #fefefe;
-	margin-top: 270px;
-	padding-bottom: 125px;
+	margin-top: 370px;
 }
 .main_header_text h1 {
 	font-size: 38px;
@@ -668,10 +670,7 @@ input[type="file"] {
 	}
 #popup1 .main_header_form {
 	width: 456px;
-	position: fixed;
-	top: 75px;
-	left: 35%;
-	z-index: 10;
+	z-index: 15;
 	background-color: #f2f2f2;
 	border-radius: 10px;
 	box-shadow: 0.6px 0.8px 7.8px 0.2px rgba(0, 0, 0, 0.25);
@@ -687,16 +686,16 @@ input[type="file"] {
 		z-index: 11;
 }
 a.close {
-	position: fixed;
+	position: absolute;
 	margin-left: -50px;
 	margin-top: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #bdbdbd;
-	z-index: 12;
+	z-index: 15;
 	right: 42%;
-	top: 8%;
+	top: 74px;
 }
 #popup2 .main_header_form {
     width: 24%;

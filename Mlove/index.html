@@ -15,97 +15,94 @@
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
-			<div class="b-popup" id="popup1">
-						<div class="b-popup-content">
-						<div class="popup_content ">
-							<form class="main_header_form">
-							<h4>Анкета</h4>
-							<label class="form-group">
-							<span class="color_element">*</span> Имя:
-							<input type="text" name="name" data-validation-required-message="Введите имя" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">*</span> Дата рождения:
-							<input type="text" name="date" data-validation-required-message="Введите Дату рождения" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">*</span>  Телефон:
-							<input type="number" name="phone"  data-validation-number-message="Введите телефон" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">*</span> Skype:
-							<input type="text" name="name" data-validation-required-message="Ваш Skype" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">*</span>  E-mail:
-							<input type="email" name="email"  data-validation-required-message="Введите правильный Email" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<div class="file">
-							<h3>ФОТО</h3>
-						<input type="file">
-						</div>					
-						<button class="submit">Отправить</button>
-					</form>
-						</div>
-						<a class="close" href="javascript:PopUpHide()">Close</a>
-					</div>
-				</div>
-				<div id="popup2">
+	<div class="b-popup" id="popup1">
 					<form class="main_header_form">
-							<h4>Есть вопросы?</h4>
-							<label class="form-group">
-							<span class="color_element">*</span> Имя:
-							<input type="text" name="name" data-validation-required-message="Введите имя" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">*</span>  E-mail:
-							<input type="email" name="email"  data-validation-required-message="Введите правильный Email" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">*</span>  Телефон:
-							<input type="number" name="phone"  data-validation-number-message="Введите телефон" required />
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">*</span> Ваш вопрос
-							<textarea name="message"  data-validation-required-message="Введите ваш вопрос" required></textarea>
-							<span class="help-block text-danger"></span>
-						</label>
-						<button class="submit">Отправить</button>
-					</form>
-					<a class="close" href="javascript:PopUpHide2()">x</a>
-					</div>
-	<header class="main_header">
-		<nav class="top_mnu">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">					
-						<button class="toggle_mnu">
-							<span class="sandwich">
-								<span class="sw-topper"></span>
-								<span class="sw-bottom"></span>
-								<span class="sw-footer"></span>
-							</span>
-						</button>	
-						<div class="logo"><img src="img/logo.png" alt="Logo"></div>
-						<ul class="top_mnu_list">
-							<li><a class="active" href="#main">Главная</a></li>
-							<li><a href="man.html">Мужчины</a></li>
-							<li><a href="woman.html">Женщины</a></li>
-							<li><a href="services.html">Услуги и цены</a></li>
-							<li><a href="contacts.html">Контакты</a></li>
-						</ul>
-					</div>
+					<h4>Анкета</h4>
+					<label class="form-group">
+						<span class="color_element">*</span> Имя:
+						<input type="text" name="name" data-validation-required-message="Введите имя" required />
+						<span class="help-block text-danger"></span>
+					</label>
+					<label class="form-group">
+						<span class="color_element">*</span> Дата рождения:
+						<input type="text" name="date" data-validation-required-message="Введите Дату рождения" required />
+						<span class="help-block text-danger"></span>
+					</label>
+					<label class="form-group">
+						<span class="color_element">*</span>  Телефон:
+						<input type="number" name="phone"  data-validation-number-message="Введите телефон" required />
+						<span class="help-block text-danger"></span>
+					</label>
+					<label class="form-group">
+						<span class="color_element">*</span> Skype:
+						<input type="text" name="name" data-validation-required-message="Ваш Skype" required />
+						<span class="help-block text-danger"></span>
+					</label>
+					<label class="form-group">
+						<span class="color_element">*</span>  E-mail:
+						<input type="email" name="email"  data-validation-required-message="Введите правильный Email" required />
+						<span class="help-block text-danger"></span>
+					</label>
+					<div class="file">
+						<h3>ФОТО</h3>
+						<input type="file">
+					</div>					
+					<button class="submit">Отправить</button>
+				</form>
+			<a class="close" href="javascript:PopUpHide()">Close</a>
+			</div>
+	<div id="popup2">
+		<form class="main_header_form">
+			<h4>Есть вопросы?</h4>
+			<label class="form-group">
+				<span class="color_element">*</span> Имя:
+				<input type="text" name="name" data-validation-required-message="Введите имя" required />
+				<span class="help-block text-danger"></span>
+			</label>
+			<label class="form-group">
+				<span class="color_element">*</span>  E-mail:
+				<input type="email" name="email"  data-validation-required-message="Введите правильный Email" required />
+				<span class="help-block text-danger"></span>
+			</label>
+			<label class="form-group">
+				<span class="color_element">*</span>  Телефон:
+				<input type="number" name="phone"  data-validation-number-message="Введите телефон" required />
+				<span class="help-block text-danger"></span>
+			</label>
+			<label class="form-group">
+				<span class="color_element">*</span> Ваш вопрос
+				<textarea name="message"  data-validation-required-message="Введите ваш вопрос" required></textarea>
+				<span class="help-block text-danger"></span>
+			</label>
+			<button class="submit">Отправить</button>
+		</form>
+		<a class="close" href="javascript:PopUpHide2()">x</a>
+	</div>
+	<nav class="top_mnu">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">					
+					<button class="toggle_mnu">
+						<span class="sandwich">
+							<span class="sw-topper"></span>
+							<span class="sw-bottom"></span>
+							<span class="sw-footer"></span>
+						</span>
+					</button>	
+					<div class="logo"><img src="img/logo.png" alt="Logo"></div>
+					<ul class="top_mnu_list">
+						<li><a class="active" href="#main">Главная</a></li>
+						<li><a href="man.html#man">Мужчины</a></li>
+						<li><a href="woman.html#woman">Женщины</a></li>
+						<li><a href="services.html#services">Услуги и цены</a></li>
+						<li><a href="contacts.html#contacts">Контакты</a></li>
+					</ul>
 				</div>
 			</div>
-		</nav>
+		</div>
+	</nav>
+	<header class="main_header">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
@@ -227,7 +224,7 @@
 							<li><a href="man.html">Мужчины</a></li>
 							<li><a href="woman.html">Женщины</a></li>
 							<li><a href="services.html">Услуги и цены</a></li>
-							<li><a href="contacts.html">Контакты</a></li>
+							<li><a href="contacts.html#contacts">Контакты</a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 col-sm-4 footer_contacts">
