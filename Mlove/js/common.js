@@ -11,8 +11,6 @@ $(document).ready(function() {
 	$(".animation_4").animated("fadeInRight");
 	$(".animation_5").animated("zoomIn");
 
-
-
 	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");
 	});
@@ -31,26 +29,25 @@ $(document).ready(function() {
 		$(".top_mnu_list").fadeOut(600);
 		$(".sandwich").toggleClass("active");
 	});
-		function heightDetect() {
+	function heightDetect() {
 		$(".main_head").css("height", $(window).height());
 	};
 	heightDetect();
 	$(window).resize(function() {
 		heightDetect();
 	});
-	PopUpHide();
-	PopUpHide2();
 });
 
 function PopUpShow(){
-    $("#popup1").show();
+	$("#popup1").show();
 }
 function PopUpHide(){
-    $("#popup1").hide();
+	$("#popup1").hide();
 }
 function PopUpShow2(){
-    $("#popup2").show();
+	$("#popup2").show();
+	console.log("rf");
 }
 function PopUpHide2(){
-    $("#popup2").hide();
+	$("#popup2").hide();
 }

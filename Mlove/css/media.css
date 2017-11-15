@@ -128,10 +128,6 @@
 	.main_header_form {
 		margin: 57px 0 98px;
 	}
-	a.close {
-		right: 208px;
-		top: 73px;
-	}
 	#popup2 .main_header_form {
 		width: 375px;
 	}
@@ -140,7 +136,8 @@
 		top: 31px;
 	}  
 	a.close {
-		right: 278px;
+		right: 30%;
+		top: 15px;
 	}
 }
 
@@ -152,7 +149,6 @@
 	.main_header_text h1 {
 		font-size: 24px;
 	}
-
 	.main_header_text {
 		margin-top: 180px;
 	}
@@ -317,19 +313,15 @@
 		margin-bottom: 12px;
 	}
 	.main_header_form button {
-		margin: 6px 10px 16px 82px;
 		padding: 16px 0;
-	}
-	a.close {
-		right: 176px;
 	}
 	#popup2 a.close {
 		right: 143px;
 	}
-	.main_header_form button {
-		margin: 6px 10px 16px 95px;
+	a.close {
+		right: 24%;
+		top: 15px;
 	}
-
 }
 
 /* Small Devices, Tablets */
@@ -499,22 +491,32 @@
 		width: 70%;
 		margin: 57px 0 0 67px;
 	}
-	a.close {
-		right: 30px;
-	}
+
 	#popup2 .main_header_form {
 		left: 11%;
 	}
 	#popup2 a.close {
 		right: 91px;
 	}
-	#popup1 .main_header_form button {
-		margin: 15px 10px 35px 132px;
-	}
-	.main_header_form button {
-		margin: 6px 10px 16px 98px;
-	}
 
+	
+	.file {
+		margin-top: -272px;
+		padding: 90px 0;
+		margin-right: 20px;
+	}
+	#popup1 .main_header_form {
+    width: 347px;
+  }
+  #popup1 .main_header_form h4 {
+    margin: 11px 0;
+}
+.form-group input, .form-group textarea {
+    line-height: 24px;
+    }
+    .main_header_form button {
+    padding: 8px 0;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -656,9 +658,18 @@
 	.form-group input, .form-group textarea {
 		margin-left: 10px;
 	}
-	#popup1 .main_header_form button {
-		margin: 15px 10px 35px 83px;
-	}
+	#popup1 .main_header_form {
+    width: 290px;
+}
+.main_header_form button {
+    margin: 15px 10px 35px 80px;
+  }
+  a.close {
+    right: 10%;
+  }
+  span.color_element {
+    margin-left: 5px;
+}
 }
 
 /* Custom, iPhone Retina */

@@ -660,14 +660,12 @@ input[type="file"] {
 	width: 90%;
 	margin-left: 10px;
 }
+
 #popup1 .main_header_form h4 {
     font-size: 24px;
     text-align: center;
     margin: 20px 0;
 }
-#popup1 .main_header_form button {
-		margin: 15px 10px 35px 150px;
-	}
 #popup1 .main_header_form {
 	width: 456px;
 	z-index: 15;
@@ -685,17 +683,21 @@ input[type="file"] {
 		top: 0px;
 		z-index: 11;
 }
+.popup_content {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+}
 a.close {
 	position: absolute;
-	margin-left: -50px;
-	margin-top: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #bdbdbd;
 	z-index: 15;
-	right: 42%;
-	top: 74px;
+	right: 39%;
+	top: 43px;
 }
 #popup2 .main_header_form {
     width: 24%;
@@ -712,6 +714,9 @@ a.close {
 	text-align: center;
 	text-transform: uppercase;
 }
+#popup1, #popup2 {
+	display: none;
+}
 #popup2 .form-group input,#popup2 .form-group textarea {
     display: block;
     width: 90%;
@@ -726,7 +731,7 @@ a.close {
     color: #bdbdbd;
     z-index: 14;
     right: 42%;
-    top: 4%;
+    top: 5%;
 }
 #popup2 {
     width: 100%;
