@@ -8,6 +8,7 @@
   <title>Home</title>
   <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
   <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
@@ -34,6 +35,14 @@
         <img src="img/icons/sound.png" alt="sound">
       </span>
     </header>
+    <div class="layer-3 kolonka_2">
+      <div class="side-logo">
+        <div class="sideline__left_1"></div>
+        <div class="sideline__left_2"></div>
+        <div class="logo bg"></div>
+        <div class="logo"><span><img src="img/side_logo.png" alt=""></span></div>
+      </div>
+    </div>
     <div class="sideline__right"></div>
     <div id="elements_tab-1" class="elements_tab_content actives">
       <img src="img/elipse.png" alt="bg" class="elipse">
@@ -84,15 +93,16 @@
         </aside>
       </section>
     </div>
-    <div id="elements_tab-2" class="elements_tab_content">
+    <div id="elements_tab-2" class="elements_tab_content animated">
       <section class="projects container-fluid">
         <div class="row">
-                     <div class="prodcompany">
+          <div class="col-lg-5 col-md-5 left-side">
+    <!--        <div class="prodcompany">
               <h2>Production</h2>
               <span>company</span>
               <ul class="prodcompany-list">
                 <li>web</li>
-                <li class="activesss">game</li>
+                <li>game</li>
                 <li>mobile</li>
                 <li>program</li>
                 <li>design</li>
@@ -100,235 +110,146 @@
                 <li>photo</li>
                 <li>3d</li>
               </ul>
+            </div> -->
+            <aside class="content contacts" role="main">
+              <div class="sidetitle">
+                <h2>Contacts</h2>
+                <h4 class="subtitle">Web development</h4>
+              </div>
+              <div class="sidemenu">
+                <ul>
+                  <li data-tab="kiev"><a href="#">Kiev</a></li>
+                  <li data-tab="odessa"><a href="#">Odessa</a></li>
+                  <li data-tab="dubai" class="active"><a href="#">Dubai</a></li>
+                  <li data-tab="losandgeles"><a href="#">Los Andgeles</a></li>
+                  <li data-tab="stambul"><a href="#">Stambul</a></li>
+                </ul>
+              </div>
+              <div class="tabs">
+                <div class="tab odessa">
+                  <img src="img/map.png" alt="">
+                </div>
+              </div>
+            </aside>
+            <div class="wwww">
+              <div class="left-side__verticaltext">web development</div>
+              <div class="left-side__contenttext">
+                <h4>web development</h4>
+                <span>Sed finibus molestie ultrices.</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
+                Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
+              </div>
+              <div class="clearfix"></div>
+              <ul class="left-side__links">
+                <li>prortfolio</li>
+                <li>read me</li>
+              </ul>
+              <div class="clearfix"></div>
             </div>
-            <!-- Taaabs1 -->
-            <div class="taaabs" id="taaabs1">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/web.png" alt="Web"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new website</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>
+          </div>
+          <div class="col-lg-7 col-md-7 right-side">
+            <div class="right-side__img"><img src="img/project/game.png" alt="Game"></div>
+            <div class="right-side__text">
+              <h4>Create</h4>
+              <span>A new game</span>
+              <p><a href="">make order</a></p>
             </div>
-            <!-- Taaabs2 -->
-            <div class="taaabs" id="taaabs2">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/game.png" alt="Game"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new game</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>
-            </div>
-            <!-- Taaabs3 -->
-            <div class="taaabs" id="taaabs3">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/mobile.png" alt="Mobile"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new app</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>
-                          <!-- Taaabs4 -->
-            <div class="taaabs" id="taaabs4">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/programing.png" alt="Programing"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new program</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>
-                          <!-- Taaabs5 -->
-            <div class="taaabs" id="taaabs5">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/design.png" alt="Design"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new design</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>
-                          <!-- Taaabs6 -->
-            <div class="taaabs" id="taaabs6">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/game.png" alt="Game"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new video</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>
-                          <!-- Taaabs7 -->
-            <div class="taaabs" id="taaabs7">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/photo.png" alt="Photo"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new photo</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>              
-                          <!-- Taaabs8 -->
-            <div class="taaabs" id="taaabs8">
-              <div class="col-lg-5 col-md-5 left-side">
-                <div class="wwww">
-                  <div class="left-side__verticaltext">web development</div>
-                  <div class="left-side__contenttext">
-                    <h4>web development</h4>
-                    <span>Sed finibus molestie ultrices.</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est, malesuada non ex sit amet, faucibus convallis antorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> 
-                    Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. tudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est</p>
-                  </div>
-                  <div class="clearfix"></div>
-                  <ul class="left-side__links">
-                    <li>prortfolio</li>
-                    <li>read me</li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-              <div class="col-lg-7 col-md-7 right-side">
-                <div class="right-side__img"><img src="img/project/3d.png" alt="3d"></div>
-                <div class="right-side__text">
-                  <h4>Create</h4>
-                  <span>A new 3d</span>
-                  <p><a href="">make order</a></p>
-                </div>
-              </div>
-            </div>
-       </div>
+          </div>
+        </div>
       </section>
     </div>
-    <div id="elements_tab-3" class="elements_tab_content">
-      <section class="" id="elements_tab-3">
-        Tab 3
+    <div id="elements_tab-3" class="elements_tab_content animated">
+      <section class="sidebar nothome">
+        <aside class="content aboutus" role="main">
+          <div class="sidetitle">
+            <h2>Read me</h2>
+            <h4 class="subtitle">Web development</h4>
+          </div>
+          <div class="sidemenu">
+            <ul>
+              <li data-tab="web" class="active"><a href="">Web</a></li>
+              <li data-tab="game"><a href="">Game</a></li>
+              <li data-tab="mobile"><a href="">Mobile</a></li>
+              <li data-tab="program"><a href="">Program</a></li>
+              <li data-tab="design"><a href="">Design</a></li>
+              <li data-tab="video"><a href="">Video</a></li>
+              <li data-tab="photo"><a href="">Photo</a></li>
+              <li data-tab="3d"><a href="">3 D</a></li>
+            </ul>
+          </div>
+          <div class="tabs">
+            <div class="tab web">
+              <div class="text">
+                <h3 class="tab__title">web development</h3>
+                <h4 class="tab__text">
+                <p class="tab__text-title">Sed finibus molestie ultrices.</p>
+                <p class="tab__text-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod nulla vitae sem blandit, id interdum magna porttitor. Nulla egestas vitae ante id tempor. Sed finibus molestie ultrices. Pellentesque nunc justo, vestibulum et vulputate vitae. Mauris sollicitudin pretium blandit. Morbi nisl massa, volutpat ac magna vitae, maximus tincidunt erat. Nunc massa est,
+                </p>
+              </h4>
+              </div>
+              <div class="tab__links">
+                <a href="#" class="makeorder_btn">Make order</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <div class="right-block">
+          <div class="prefs">
+            <div class="pref">
+              <h2>Команда</h2>
+              <p class="desctop">Прежде чем отдать Ваш заказ в работу, мы формируем команду из специалистов наиболее подходящих для поставленых задач, учитывая их загруженность и профессиональные навыки. Благодаря этому мы всегда уверены в сроках выполнения проекта и его полном соответствии Вашим требованиям.
+              </p>
+              <p class="mob">
+                Прежде чем отдать Ваш заказ в работу, мы формируем команду из специалистов наиболее подходящих для поставленых задач
+              </p>
+            </div>
+            <div class="pref">
+              <h2>24/7</h2>
+              <p class="desctop">Большой штат сотрудников позволяет нам вести работы в любое время суток. Мы не привязываем работников к фиксированному графику, ведь многие специалист, в нашей сфере, гораздо продуктивнее ночью, нежели днем. Таким образом - работа идет всегда, вплоть до полного завершения проекта.</p>
+              <p class="mob">
+                Прежде чем отдать Ваш заказ в работу, мы формируем команду из специалистов наиболее подходящих для поставленых задач
+              </p>
+            </div>
+            <div class="pref">
+              <h2>Менеджмент</h2>
+              <p class="desctop">Большой штат сотрудников позволяет нам вести работы в любое время суток. Мы не привязываем работников к фиксированному графику, ведь многие специалист, в нашей сфере, гораздо продуктивнее ночью, нежели днем. Таким образом - работа идет всегда, вплоть до полного завершения проекта.</p>
+              <p class="mob">
+                Прежде чем отдать Ваш заказ в работу, мы формируем команду из специалистов наиболее подходящих для поставленых задач
+              </p>
+            </div>
+            <div class="pref">
+              <h2>В ногу со временем </h2>
+              <p class="desctop">Тенденции в мире современных технологий не стоят на месте, вопреки - развитие трендов неумолимо набирает обороты. Именно по-этому мы всегда поддерживаем развитие внутри команды, не только повышая и оттачивая профессиональные навыки сотрудников, но и поощряя приобретение новых. Банк наших способностей, языков и образов растет изо дня в день. Еще несколько лет назад сложно было представить, каково это создавать или дополнять реальность, сегодня - это далеко не предел наших возможностей. </p>
+              <p class="mob">
+                Тенденции в мире современных технологий не стоят на месте, вопреки - развитие трендов неумолимо набирает обороты. Именно по-этому мы всегда поддерживаем развитие внутри команды, не только повышая и оттачивая профессиональные навыки сотрудников, но и поощряя приобретение новых.
+              </p>
+            </div>
+          </div>
+          <div class="numbers">
+            <div class="num"><span>5</span>
+              <div class="num-desc">Филиалов</div>
+            </div>
+            <div class="num"><span>123</span>
+              <div class="num-desc">Филиалов</div>
+            </div>
+            <div class="num"><span>56</span>
+              <div class="num-desc">Филиалов</div>
+            </div>
+            <div class="num"><span>43</span>
+              <div class="num-desc">Филиалов</div>
+            </div>
+            <div class="num"><span>77</span>
+              <div class="num-desc">Филиалов</div>
+            </div>
+            <div class="num"><span>11</span>
+              <div class="num-desc">Филиалов</div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
-    <div id="elements_tab-4" class="elements_tab_content">
+    <div id="elements_tab-4" class="elements_tab_content animated">
       <section class="sidebar nothome contacts">
         <aside class="content contacts" role="main">
           <div class="sidetitle">
@@ -388,15 +309,11 @@
         </div>
         <nav>
           <ul class="elements_tabs">
-            <li data-tab="elements_tab-1" class="active">Home</li>
-            <li data-tab="elements_tab-2">Projects</li>
-            <li data-tab="elements_tab-3">About us</li>
-            <li data-tab="elements_tab-4">Contacts</li>
+            <li data-tab="elements_tab-1" class="active"><span>Home</span></li>
+            <li data-tab="elements_tab-2"><span>Projects</span></li>
+            <li data-tab="elements_tab-3"><span>About us</span></li>
+            <li data-tab="elements_tab-4"><span>Contacts</span></li>
           </ul>
-          <a href="index.html" class="active"><span>Home</span></a>
-          <a href="production.html"><span>Projects</span></a>
-          <a href="aboutus.html"><span>About us</span></a>
-          <a href="contacts.html"><span>Contacts</span></a>
         </nav>
       </div>
     </footer>
@@ -450,12 +367,12 @@
     var tab_idt = $(this).attr('data-tab');
 
     $('.elements_tabs li').removeClass('active');
-    $('.elements_tab_content').removeClass('actives fadeIn');
+    $('.elements_tab_content').removeClass('actives bounceInLeft');
     $('.elements_tab_content_2').removeClass('active fadeIn');
     $('.elements_tab_content_3').removeClass('active fadeIn');
 
     $(this).addClass('active');
-    $("#" + tab_id).addClass('actives fadeIn');
+    $("#" + tab_id).addClass('actives bounceInLeft');
 
     $(this).addClass('active');
     $("#" + tab_ids + "_2").addClass('actives fadeIn');
